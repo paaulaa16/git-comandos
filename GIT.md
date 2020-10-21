@@ -11,4 +11,10 @@
 - **git push**: sube todos los cambios locales al servidor remoto de github
 - **git status**: muestra los archivos
 - **git add *(.txt o .md)**: sube unos archivos en especifico
-
+- **git branch (nombre del branch)**: crea una nueva rama
+- **git branch -v**: para ver los ultimos commits en cada rama
+- **git branch -d (branchName)**: elimina una rama
+- **git checkout -b (nombre del branch)**: crear y cambiar inmediatamente a una rama
+- **git merge**: fusionar una rama en tu contexto actual
+- **git tag**: marcar un punto en la historia como importante
+- **git pull**: bajar nuevas ramas y datos del repositorio remoto y combinarlas en la rama actual lo que trajo del remoto

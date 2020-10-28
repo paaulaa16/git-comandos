@@ -40,3 +40,18 @@ $ git diff branch1..branch2
 git log --follow -- nombreArchivo
 ~~~
 - Los **--** antes de **nombreArchivo** sirven para indicar explícitamente que **nombreArchivo** corresponde a un archivo (y no, por ejemplo, al nombre de una rama).
+
+**8- ¿Como crear mi propio servidor de Git?**
+~~~
+git clone user@ip_servidor:/var/www/html/carpeta_del_proyecto/repositorio.git
+~~~
+
+**9- ¿Como averiguar la procedencia de una rama determinada?**
+Haces un checkout a la rama en cuestion y luego ejecuta:
+~~~
+git log --oneline --decorate --all --graph
+~~~
+
+**10- ¿Cual es la diferencia entre commit y push en Git?**
+
+**Git push** trabaja a nivel de repositorio remoto, mientras que **git commit** trabaja en tu repositorio local.

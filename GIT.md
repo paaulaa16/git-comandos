@@ -18,3 +18,4 @@
 - **git merge**: fusionar una rama en tu contexto actual
 - **git tag**: marcar un punto en la historia como importante
 - **git pull**: bajar nuevas ramas y datos del repositorio remoto y combinarlas en la rama actual lo que trajo del remoto
+

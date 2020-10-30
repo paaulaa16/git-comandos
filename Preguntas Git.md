@@ -57,3 +57,11 @@ git log --oneline --decorate --all --graph
 **Git push** trabaja a nivel de repositorio remoto, mientras que **git commit** trabaja en tu repositorio local.
 
 ![imagen](https://manuais.iessanclemente.net/images/4/4b/File-Status-Git.png)
+
+**11- ¿Cuál es la diferencia entre “git rm --cached” y “git reset HEAD”?**
+
+Las diferencias son las siguientes:
+
+**- git rm -cached <file>**: remueve el archivo del indice, esto quiere decir, que Git ya no le hará seguimiento. Aunque el archivo seguirá existiendo en tu directorio, tal y como está.
+  
+**-git reset HEAD <file>**: devuelve el archivo a su último commit y este sigue en seguimiento por git, es decir podras hacer add, commit, etc.

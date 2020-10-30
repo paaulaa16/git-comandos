@@ -55,3 +55,5 @@ git log --oneline --decorate --all --graph
 **10- ¿Cual es la diferencia entre commit y push en Git?**
 
 **Git push** trabaja a nivel de repositorio remoto, mientras que **git commit** trabaja en tu repositorio local.
+
+![imagen](https://manuais.iessanclemente.net/images/4/4b/File-Status-Git.png)
